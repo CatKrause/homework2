@@ -9,11 +9,12 @@ public class Main {
         // Рассчитываете количество бонусных миль, используя
         // значения заведённых переменных. Ответ сохраняете в
         // новую переменную и выводите на экран
-        int amount = 13676;
-        int bonus = 20;
+        int price = 13676;
+        // int bonus = 20;
+        int miles = price / 20;
 
 
-        System.out.println((amount / bonus) + " итоговый рассчет бонусных миль");
+        System.out.println(miles + " итоговый расчет бонусных миль");
     }
 
 
