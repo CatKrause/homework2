@@ -13,8 +13,8 @@ public class Main {
         int bonus = 20;
 
 
-      System.out.println((amount / bonus) + " итоговый рассчет бонусных миль");
+        System.out.println((amount / bonus) + " итоговый рассчет бонусных миль");
     }
 
 
-    }
+}
